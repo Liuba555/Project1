@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'MadeinChinaRegular';
+    src: url(fonts/madec___-webfont.woff);
+}
+
+@font-face {
+    font-family: 'KoreanCalligraphyRegular';
+    src: url(fonts/korean_calligraphy-webfont.woff);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font: normal 11px/1.3em Tahoma, Arial, lucida Grande;
+    color: #3d3d3d;
+    background: url(images/main_bg.jpg) repeat-x top #6d0005;
+}
+
+.logo {
+    margin: 0px auto -42px;
+    background: url(images/header_bg.jpg);
+    width: 964px;
+    height: 166px;
+    background-size: cover;
+}
+
+.logo img {
+    padding-left: 39%;
+    width: 226px;
+    height: 120px;
+}
+
+nav {
+    margin: 0px auto 0px;
+    padding: 0;
+    float: left;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+nav ul {
+    margin: 0px auto 0px;
+    padding-top: 10px;
+    list-style: none;
+    text-align: center;
+}
+
+nav ul li {
+    margin: 0px auto 0px;
+    padding: 0;
+    list-style: none;
+    display: inline;
+    text-align: center;
+    color: #fff;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    margin: 0 20px;
+    padding: 0;
+    font-family: 'MadeinChinaRegular', sans-serif;
+    text-transform: uppercase;
+}
+
+nav ul li a:hover {
+    color: #FC0;
+    text-decoration: none;
+    
+}
+.banner {
+    margin: 0 auto 0;
+    width: 964px;
+    height: 299px;
+    background: url(images/banner.jpg) no-repeat top;
+}
+
+.banner h1 {
+    color: #FFFFFF;
+    font: bold 35px/1.3em 'KoreanCalligraphyRegular', Arial, Helvetica, sans-serif;
+    margin: 43px 0 0 50px;
+    padding: 80px 3px;
+}
+
+.banner h1 span {
+    font-size: 20px;
+    padding-left: 200px;
+}
+
+.box {
+    width: 1000px;
+    margin: 0px auto 0px;
+    padding-left: 30px;
+}
+
+.box1 {
+    background: url(images/flavors.jpg) no-repeat top;
+    margin: 0;
+    padding: 83px 0 0 21px;
+    float: left;
+    width: 300px;
+    height: 139px;
+}
+
+.box h2 {
+    color: #FFFFFF;
+    margin: 12px 0 0;
+    padding: 0;
+}
+
+.box h2 a {
+    margin: 0;
+    padding: 0;
+    font: normal 22px/1.3em Arial, Helvetica, sans-serif;
+    color: #fff;
+    font-weight: normal;
+    font-style: normal;
+    line-height: normal;
+    font-family: 'KoreanCalligraphyRegular', sans-serif;
+    text-decoration: none;
+}
+
+.box2 {
+    background: url(images/home_delivery.jpg) no-repeat top;
+    margin: 0;
+    padding: 83px 0 0 21px;
+    float: left;
+    width: 300px;
+    height: 139px;
+}
+
+.box3 {
+    background: url(images/chef.jpg) no-repeat top;
+    margin: 0;
+    padding: 83px 0 0 21px;
+    float: left;
+    width: 300px;
+    height: 139px;
+}
+
+.box3 h2 {
+    margin-left: 120px;
+}
+
+footer {
+    margin: 10px 0;
+    padding: 0;
+    float: left;
+    width: 964px;
+    height: auto;
+}
+
+footer p {
+    margin-left: 56%;
+    padding: 15px;
+    float: left;
+    font: normal 11px/1.3em Tahoma, Geneva, sans-serif;
+    color: #fff;
+}
